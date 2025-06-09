@@ -19,5 +19,6 @@ def total_salary(path):
         except:
             return "Error while trying to run the script"
         
-a = total_salary("salaries.txt")
-print(a)
+average, total = total_salary("salaries.txt")
+print(f"Середній розмір зарплат: {average}")
+print(f"Загальний розмір зарплати: {total}")
