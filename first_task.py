@@ -1,5 +1,5 @@
 def total_salary(path):
-    with open(path) as salary_file:
+    with open(path, encoding="utf-8") as salary_file:
         try:
             sum_sallary = 0
             
